@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.msg-container {
+  width: 100vw;
+  height: 100vh;
+  background: #2c3335;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg-container .main {
+  width: 65%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.msg-box {
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+  .msg-container .main {
+    grid-template-columns: 1fr;
+  }
+}

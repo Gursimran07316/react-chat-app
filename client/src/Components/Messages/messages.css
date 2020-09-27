@@ -1,0 +1,8 @@
+.message-container {
+  background: white;
+  display: flex;
+  padding: 6% auto;
+  overflow: auto;
+  height: 50vh;
+  /*overflow-y: scroll; */
+}

@@ -1,0 +1,28 @@
+.chat-msg {
+  padding: 0.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chat-msg.right {
+  justify-content: flex-end;
+}
+.chat-msg p {
+  padding: 0.5rem;
+  border-radius: 10px;
+  max-width: 70%;
+}
+.chat-msg p.grey {
+  background: #eaf0f1;
+  margin-right: 0.5rem;
+}
+.chat-msg p.blue {
+  background: #3498db;
+  margin-left: 0.5rem;
+  color: white;
+  text-align: right;
+}
+.sender {
+  color: #99aaab;
+}

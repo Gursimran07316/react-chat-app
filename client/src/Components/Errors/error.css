@@ -1,0 +1,27 @@
+.error-container {
+  width: 100vw;
+  height: 100vh;
+  background: #2c3335;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-container .error-box {
+  background: #dae0e2;
+  display: flex;
+  width: 30%;
+  height: 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+.error-container .error-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.error-container .error-box .btn {
+  width: auto;
+}

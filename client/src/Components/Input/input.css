@@ -1,0 +1,28 @@
+.send-form {
+  display: flex;
+}
+.send-form input,
+.send-form button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-top: #99aaab 1px solid;
+  width: 70%;
+}
+.send-form button {
+  background: #3498db;
+  color: white;
+  width: 30%;
+}
+.send-form button:hover {
+  opacity: 0.9;
+  padding: 0.5rem 1rem;
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+  .send-form input {
+    width: 60%;
+  }
+  .send-form button {
+    width: 40%;
+  }
+}
